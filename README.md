@@ -192,7 +192,3 @@ metric implementation behind the paper's numbers:
 python evaluate.py --task obs  --pred eval_output/obs      # IoU / Dice          (Table 1)
 python evaluate.py --task wall --pred eval_output/wall     # Chamfer cm / F1@15cm (Fig. 7)
 ```
-
-One evaluation pixel is 9.375 cm (600 px at 50 px/m, downsampled to 128); the F1 tolerance
-defaults to the paper's 15 cm. Cases whose object ground truth is an empty room are reported
-as skipped rather than averaged in as zeros.
