@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+
+# training / evaluation outputs
+5_diffusion/ddim3/logs/
+5_diffusion/eval_output*/
+4_inversion/result_ours/
+4_inversion/result_baseline/
+6_simulator/out/
+
+# large data -- json/ is extracted from the tracked json.tar.gz (see 6_simulator/README.md)
+6_simulator/data/HouseExpo/json/
